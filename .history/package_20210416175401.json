@@ -1,14 +1,14 @@
 {
-  "name": "webd6201-w2021-lab4",
+  "name": "webd6201-w2021-ice11",
   "version": "1.0.0",
-  "description": "Lab#4",
+  "description": "Demo Site for ICE 11",
   "main": "server.js",
-  "repository": "https://github.com/MuzhdaEhsan/WEBD6201-W2021-Lab4",
+  "repository": "https://github.com/durhamprogrammer/WEBD6201-W2021-ICE11b.git",
   "author": "Muzhda <muzhda.ehsan@gmail.com>",
   "license": "MIT",
   "engines": {
     "node": "^15.0.0",
-    "npm": "^6.1.0" 
+    "npm": "^6.1.0"
   },
   "scripts": {
     "start": "node server.js"
