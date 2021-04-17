@@ -53,6 +53,7 @@ function DisplayRegisterPage(req, res, next) {
 exports.DisplayRegisterPage = DisplayRegisterPage;
 function ProcessLoginPage(req, res, next) {
     passport_1.default.authenticate('local', (err, user, info) => {
+        console.log(user);
         if (err) {
             console.error(err);
             return next(err);
